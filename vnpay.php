@@ -14,7 +14,7 @@ $vnp_HashSecret = "EBAHADUGCOEWYXCMYZRMTMLSHGKNRPBN"; //Chuỗi bí mật
 // Ngày phát hành:07/15
 // Mật khẩu OTP:123456
 // https://sandbox.vnpayment.vn/apis/vnpay-demo/#th%C3%B4ng-tin-th%E1%BA%BB-test    
-$vnp_TxnRef = 322222222; //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
+$vnp_TxnRef = 32222222; //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
 $vnp_OrderInfo = $_POST['OrderDescription'];
 $vnp_OrderType = $_POST['ordertype'];
 $vnp_Amount = $_POST['Amount'] * 100;
